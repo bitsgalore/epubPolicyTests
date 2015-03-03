@@ -13,9 +13,32 @@ As a result, most of the files in this repo deliberately violate one or more of 
 
 ## Directories
 
-* **Content** - uncompressed contents of each test file
+* **content** - uncompressed contents of each test file
 * **build** - actual epub builds
 * **pubresources** - various resources (files) that were used for creating the epubs.
+
+
+## How to package an epub using InfoZip
+
+(Adapted from <http://www.mobileread.com/forums/showpost.php?s=5ebefd2d1551601ab91386c12853dfc6&p=581649&postcount=1>)
+
+Let's suppose all content files are in directory /content/epub20_minimal/.
+
+### Step 1: go to content file directory
+
+    cd /home/johan/epubPolicyTests/content/epub20_minimal/
+
+### Step 2: create new ZIP file, add *mimetype* resource without compression 
+
+    zip -X0 /home/johan/epubPolicyTests/build/epub20_minimal.epub mimetype
+
+### Step 3: add remaining files to ZIP file with compression
+
+   zip -rDX9 /home/johan/epubPolicyTests/build/epub20_minimal.epub * -x mimetype
+
+### Step 4: test with epubcheck
+
+    epubcheck /home/johan/epubPolicyTests/build/epub20_minimal.epub
 
 
 ## Core Media Types in *EPUB* 2 and *3*
