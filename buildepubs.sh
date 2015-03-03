@@ -17,14 +17,20 @@ counter=0
 
 while IFS= read -d $'\0' directory ; do
     dirName=$(basename "$directory")
-    counter=$((counter+1))
     
     # Generate name for output file, based on directory name
-    epubName=$buildDir/"$dirName".epub
-    
-    echo $epubName 
-    # Run Epubcheck
-    #java -jar $epubcheckJar "$epubName" -out $outputEpubcheck 2>tmp.stderr
+    epubName=$buildDir"$dirName".epub
+
+    echo $epubName
+
+    # Go to dir with content
+    cd "$directory"
+
+    # Create ZIP file and add mimetype resource without compressing
+    zip -X0 "$epubName" mimetype
+
+    # Add remaining files with compression
+    zip -rDX9 "$epubName" * -x mimetype
       
 done < <(find "$contentDir" -type d -maxdepth 1 -mindepth 1 -print0)
 
