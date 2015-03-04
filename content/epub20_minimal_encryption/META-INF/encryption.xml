@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><encryption xmlns="urn:oasis:names:tc:opendocument:xmlns:container">
+  <EncryptedData xmlns="http://www.w3.org/2001/04/xmlenc#">
+    <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <resource xmlns="http://ns.adobe.com/adept">urn:uuid:a22336f8-c280-11e4-8dfc-aa07a5b093db</resource>
+    </KeyInfo>
+    <CipherData>
+      <CipherReference URI="OEBPS/Text/pdfMigration.html"/>
+    </CipherData>
+  </EncryptedData>
+</encryption>
