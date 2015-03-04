@@ -25,10 +25,11 @@ For an explanation of how the build process works, see [here](https://gist.githu
 
 ## Description of test files
 
-| File name| Epub version|Description|
-|:--|:-|:--|
+|File name|Epub version|Description|
+|:--|:--|:--|
 |epub20_minimal.epub|2|Basic file with one text resource and one image|
 |epub20_minimal_encryption.epub|2|Includes encryption.xml resource in `META-INF`, indicating that main text resource is encrypted (text resource is not *actually* encrypted, BTW)|
+
 
 ## Core Media Types in *EPUB* 2 and *3*
 
