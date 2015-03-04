@@ -12,6 +12,10 @@ contentDir="./content/"
 
 buildDir="./build/"
 
+# Empty build dir
+
+rm "$buildDir"/*
+
 # **************
 # MAIN PROCESSING LOOP
 # **************

@@ -2,7 +2,7 @@
 
 ## Contents of this repository
 
-Custom-made *EPUB* test files. The files were specifically created for the purpose of testing an automated procedure to validate *EPUB*s  against KB institutional policies. These policies require the following:
+A set of *EPUB* test files, specifically created for the purpose of testing an automated procedure to validate *EPUB*s  against KB institutional policies. These policies require the following:
 
 * Files must be valid *EPUB* (version 2 or 3)
 * File may not contain DRM or encryption (edge case: font mangling, should be permitted)
@@ -10,6 +10,8 @@ Custom-made *EPUB* test files. The files were specifically created for the purpo
 * No Digital Talking Book (DTB) content documents
 
 As a result, most of the files in this repo deliberately violate one or more of the above requirements. 
+
+Some of the files were newly created (with a little help from [Sigil](http://sigil-ebook.com/)), whereas others were taken or adapted from other openly-licensed data sets. 
 
 ## Directories
 
@@ -29,7 +31,10 @@ For an explanation of how the build process works, see [here](https://gist.githu
 |:--|:--|:--|
 |epub20_minimal.epub|2|Basic file with one text resource and one image|
 |epub20_minimal_encryption.epub|2|Includes encryption.xml resource in `META-INF`, indicating that main text resource is encrypted (text resource is not *actually* encrypted, BTW)|
+|epub30_font_obfuscation.epub|3|Includes fonts that are obfuscated (which results in *hasEncryption* in epubcheck). Taken from [EPUB 3 Sample Documents](https://code.google.com/p/epub-samples/) ([*wasteland with OTF fonts, obfuscated*](https://code.google.com/p/epub-samples/downloads/detail?name=wasteland-otf-obf-20120118.epub&can=2&q=)).|
+|epub20_not_core_media_type.epub|2|Includes JP2 image, which is a format that is not on the list of Core Media Types|
 
+<!--
 
 ## Core Media Types in *EPUB* 2 and *3*
 
@@ -77,3 +82,9 @@ Most of the *EPUB* 3 Core Media Types are also supported by *EPUB* 2, with the e
 
 > [a]n EPUB Reading System (...) *should* process EPUB version 2 Publications (...)
 > 
+
+-->
+
+## License
+
+All files here are released under the Creative Commons 3.0 BY-SA license.
