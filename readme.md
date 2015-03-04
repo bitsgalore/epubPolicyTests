@@ -13,33 +13,22 @@ As a result, most of the files in this repo deliberately violate one or more of 
 
 ## Directories
 
-* **content** - uncompressed contents of each test file
+* **content** - uncompressed contents of each test file (each subdirectory represents one epub)
 * **build** - actual epub builds
 * **pubresources** - various resources (files) that were used for creating the epubs.
 
+## Main script
 
-## How to package an epub using InfoZip
+The script *buildepubs.sh* iterates over all subdirectories in the *content* folder and compresses the contents of each to a functional *epub* file in the *build* directory.
 
-(Adapted from <http://www.mobileread.com/forums/showpost.php?s=5ebefd2d1551601ab91386c12853dfc6&p=581649&postcount=1>)
+For an explanation of how the build process works, see [here](https://gist.github.com/bitsgalore/da04413787931d20a8bf).
 
-Let's suppose all content files are in directory /content/epub20_minimal/.
+## Description of test files
 
-### Step 1: go to content file directory
-
-    cd /home/johan/epubPolicyTests/content/epub20_minimal/
-
-### Step 2: create new ZIP file, add *mimetype* resource without compression 
-
-    zip -X0 /home/johan/epubPolicyTests/build/epub20_minimal.epub mimetype
-
-### Step 3: add remaining files to ZIP file with compression
-
-   zip -rDX9 /home/johan/epubPolicyTests/build/epub20_minimal.epub * -x mimetype
-
-### Step 4: test with epubcheck
-
-    epubcheck /home/johan/epubPolicyTests/build/epub20_minimal.epub
-
+| File name| Epub version|Description|
+|:--|:-|:--|
+|epub20_minimal.epub|2|Basic file with one text resource and one image|
+|epub20_minimal_encryption.epub|2|Includes encryption.xml resource in `META-INF`, indicating that main text resource is encrypted (text resource is not *actually* encrypted, BTW)|
 
 ## Core Media Types in *EPUB* 2 and *3*
 
