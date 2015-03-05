@@ -83,6 +83,22 @@ Most of the *EPUB* 3 Core Media Types are also supported by *EPUB* 2, with the e
 > [a]n EPUB Reading System (...) *should* process EPUB version 2 Publications (...)
 > 
 
+## Detection of Digital Talking Book content documents
+
+From <http://www.idpf.org/epub/20/spec/OPS_2.0.1_draft.htm#TOC1.4.1.1>:
+
+> A document is considered an OPS Content Document if and only if:
+>
+>   i. it uses a combination of the XHTML subset defined in this document and OPS-specific content extensions such as Inline XML Islands and Inline SVG; or
+>   ii. it is a document with the MIME media type application/x-dtbook+xml which conforms to the DTB specification (http://www.niso.org/standards/resources/Z39-86-2005.html) and must not use OPS-specific content extensions such as Inline XML Islands or Inline SVG; or
+>   iii. it is an XML document of any other MIME media type and is thus an Out-Of-Line XML Island
+
+Samples here:
+
+<http://robertjszmidt.pl/node/284>
+<https://code.google.com/p/threepress/source/browse/branches/bookworm-caching/library/test-data/data/hauy.epub?r=583>
+
+
 -->
 
 ## License

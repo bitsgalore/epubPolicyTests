@@ -1,0 +1,967 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd" >
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+	<head>
+		<meta name="generator" content="Daisy Pipeline OPS Creator" />
+	</head>
+	<docTitle>
+		<text>Valentin Haüy - the father of the education for the blind</text>
+	</docTitle>
+	<docAuthor>
+		<text>Beatrice Christensen Sköld</text>
+	</docAuthor>
+	<navMap>
+		<navPoint id="ncx1" class="h1" playOrder="1">
+			<navLabel>
+				<text>Book information</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops1" />
+			<navPoint id="ncx2" class="h2" playOrder="2">
+				<navLabel>
+					<text>Preface</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops2" />
+			</navPoint>
+		</navPoint>
+		<navPoint id="ncx3" class="h1" playOrder="4">
+			<navLabel>
+				<text>1. Research questions</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops3" />
+		</navPoint>
+		<navPoint id="ncx4" class="h1" playOrder="5">
+			<navLabel>
+				<text>2. Purpose, method and sources</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops4" />
+		</navPoint>
+		<navPoint id="ncx5" class="h1" playOrder="12">
+			<navLabel>
+				<text>3. Valentin Haüy</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops9" />
+			<navPoint id="ncx6" class="h2" playOrder="13">
+				<navLabel>
+					<text>3.1 Introduction</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops10" />
+			</navPoint>
+			<navPoint id="ncx7" class="h2" playOrder="24">
+				<navLabel>
+					<text>3.2 Biographical background</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops20" />
+			</navPoint>
+			<navPoint id="ncx8" class="h2" playOrder="29">
+				<navLabel>
+					<text>3.3 The market in St Ovid's Square</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops25" />
+			</navPoint>
+			<navPoint id="ncx9" class="h2" playOrder="33">
+				<navLabel>
+					<text>3.4 Maria Theresia von Paradis (1733-1808)</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops28" />
+			</navPoint>
+			<navPoint id="ncx10" class="h2" playOrder="40">
+				<navLabel>
+					<text>3.5 Haüy's meeting with Lesueur and the founding of l'Institution des Jeunes Aveugles</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops34" />
+			</navPoint>
+			<navPoint id="ncx11" class="h2" playOrder="53">
+				<navLabel>
+					<text>3.6 Valentin Haüy's teaching methods</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops46" />
+			</navPoint>
+			<navPoint id="ncx12" class="h2" playOrder="66">
+				<navLabel>
+					<text>3.7 The French Revolution</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops57" />
+			</navPoint>
+			<navPoint id="ncx13" class="h2" playOrder="79">
+				<navLabel>
+					<text>3.8 Musée des Aveugles</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops69" />
+			</navPoint>
+			<navPoint id="ncx14" class="h2" playOrder="83">
+				<navLabel>
+					<text>3.9 Valentin Haüy in Russia</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops72" />
+				<navPoint id="ncx15" class="h3" playOrder="84">
+					<navLabel>
+						<text>3.9.1 An invitation from Alexander I</text>
+					</navLabel>
+					<content src="hauy-2005-1.xml#ops73" />
+				</navPoint>
+				<navPoint id="ncx16" class="h3" playOrder="90">
+					<navLabel>
+						<text>3.9.2 Berlin</text>
+					</navLabel>
+					<content src="hauy-2005-1.xml#ops78" />
+				</navPoint>
+				<navPoint id="ncx17" class="h3" playOrder="95">
+					<navLabel>
+						<text>3.9.3 In St Petersburg</text>
+					</navLabel>
+					<content src="hauy-2005-1.xml#ops83" />
+				</navPoint>
+				<navPoint id="ncx18" class="h3" playOrder="106">
+					<navLabel>
+						<text>3.9.4 Haüy's last will and testament</text>
+					</navLabel>
+					<content src="hauy-2005-1.xml#ops90" />
+				</navPoint>
+				<navPoint id="ncx19" class="h3" playOrder="109">
+					<navLabel>
+						<text>3.9.5 The education of deaf pupils in St Petersburg</text>
+					</navLabel>
+					<content src="hauy-2005-1.xml#ops92" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="ncx20" class="h2" playOrder="113">
+				<navLabel>
+					<text>3.10 Haüy's telegraph</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops95" />
+			</navPoint>
+			<navPoint id="ncx21" class="h2" playOrder="118">
+				<navLabel>
+					<text>3.11 The final years</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops100" />
+			</navPoint>
+		</navPoint>
+		<navPoint id="ncx22" class="h1" playOrder="122">
+			<navLabel>
+				<text>4. The importance of Haüy in the education of the blind in Sweden and elsewhere</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops103" />
+		</navPoint>
+		<navPoint id="ncx23" class="h1" playOrder="142">
+			<navLabel>
+				<text>5. Discussion and conclusions</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops120" />
+		</navPoint>
+		<navPoint id="ncx24" class="h1" playOrder="151">
+			<navLabel>
+				<text>References</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops127" />
+			<navPoint id="ncx25" class="h2" playOrder="153">
+				<navLabel>
+					<text>Footnotes</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#fn" />
+			</navPoint>
+			<navPoint id="ncx26" class="h2" playOrder="154">
+				<navLabel>
+					<text>Literature</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops128" />
+			</navPoint>
+			<navPoint id="ncx27" class="h2" playOrder="156">
+				<navLabel>
+					<text>Articles</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops129" />
+			</navPoint>
+			<navPoint id="ncx28" class="h2" playOrder="157">
+				<navLabel>
+					<text>Electronic media</text>
+				</navLabel>
+				<content src="hauy-2005-1.xml#ops130" />
+			</navPoint>
+		</navPoint>
+	</navMap>
+	<pageList class="pagenum" id="pagenum-list">
+		<navLabel>
+			<text>Pages</text>
+		</navLabel>
+		<pageTarget id="ncx29" class="pagenum" playOrder="3" type="normal">
+			<navLabel>
+				<text>5</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_5" />
+		</pageTarget>
+		<pageTarget id="ncx30" class="pagenum" playOrder="9" type="normal">
+			<navLabel>
+				<text>6</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_6" />
+		</pageTarget>
+		<pageTarget id="ncx31" class="pagenum" playOrder="11" type="normal">
+			<navLabel>
+				<text>7</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_7" />
+		</pageTarget>
+		<pageTarget id="ncx32" class="pagenum" playOrder="22" type="normal">
+			<navLabel>
+				<text>8</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_8" />
+		</pageTarget>
+		<pageTarget id="ncx33" class="pagenum" playOrder="31" type="normal">
+			<navLabel>
+				<text>9</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_9" />
+		</pageTarget>
+		<pageTarget id="ncx34" class="pagenum" playOrder="39" type="normal">
+			<navLabel>
+				<text>10</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_10" />
+		</pageTarget>
+		<pageTarget id="ncx35" class="pagenum" playOrder="51" type="normal">
+			<navLabel>
+				<text>11</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_11" />
+		</pageTarget>
+		<pageTarget id="ncx36" class="pagenum" playOrder="54" type="normal">
+			<navLabel>
+				<text>12</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_12" />
+		</pageTarget>
+		<pageTarget id="ncx37" class="pagenum" playOrder="61" type="normal">
+			<navLabel>
+				<text>13</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_13" />
+		</pageTarget>
+		<pageTarget id="ncx38" class="pagenum" playOrder="73" type="normal">
+			<navLabel>
+				<text>14</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_14" />
+		</pageTarget>
+		<pageTarget id="ncx39" class="pagenum" playOrder="82" type="normal">
+			<navLabel>
+				<text>15</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_15" />
+		</pageTarget>
+		<pageTarget id="ncx40" class="pagenum" playOrder="89" type="normal">
+			<navLabel>
+				<text>16</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_16" />
+		</pageTarget>
+		<pageTarget id="ncx41" class="pagenum" playOrder="98" type="normal">
+			<navLabel>
+				<text>17</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_17" />
+		</pageTarget>
+		<pageTarget id="ncx42" class="pagenum" playOrder="102" type="normal">
+			<navLabel>
+				<text>18</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_18" />
+		</pageTarget>
+		<pageTarget id="ncx43" class="pagenum" playOrder="103" type="normal">
+			<navLabel>
+				<text>19</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_19" />
+		</pageTarget>
+		<pageTarget id="ncx44" class="pagenum" playOrder="105" type="normal">
+			<navLabel>
+				<text>20</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_20" />
+		</pageTarget>
+		<pageTarget id="ncx45" class="pagenum" playOrder="107" type="normal">
+			<navLabel>
+				<text>21</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_21" />
+		</pageTarget>
+		<pageTarget id="ncx46" class="pagenum" playOrder="111" type="normal">
+			<navLabel>
+				<text>22</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_22" />
+		</pageTarget>
+		<pageTarget id="ncx47" class="pagenum" playOrder="121" type="normal">
+			<navLabel>
+				<text>23</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_23" />
+		</pageTarget>
+		<pageTarget id="ncx48" class="pagenum" playOrder="129" type="normal">
+			<navLabel>
+				<text>24</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_24" />
+		</pageTarget>
+		<pageTarget id="ncx49" class="pagenum" playOrder="137" type="normal">
+			<navLabel>
+				<text>25</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_25" />
+		</pageTarget>
+		<pageTarget id="ncx50" class="pagenum" playOrder="141" type="normal">
+			<navLabel>
+				<text>26</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_26" />
+		</pageTarget>
+		<pageTarget id="ncx51" class="pagenum" playOrder="145" type="normal">
+			<navLabel>
+				<text>27</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_27" />
+		</pageTarget>
+		<pageTarget id="ncx52" class="pagenum" playOrder="149" type="normal">
+			<navLabel>
+				<text>28</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_28" />
+		</pageTarget>
+		<pageTarget id="ncx53" class="pagenum" playOrder="152" type="normal">
+			<navLabel>
+				<text>29</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_29" />
+		</pageTarget>
+		<pageTarget id="ncx54" class="pagenum" playOrder="155" type="normal">
+			<navLabel>
+				<text>30</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#page_30" />
+		</pageTarget>
+	</pageList>
+	<navList class="noteref" id="noteref-list">
+		<navLabel>
+			<text>Note References</text>
+		</navLabel>
+		<navTarget id="ncx55" class="noteref" playOrder="6">
+			<navLabel>
+				<text>1</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops5" />
+		</navTarget>
+		<navTarget id="ncx56" class="noteref" playOrder="7">
+			<navLabel>
+				<text>2</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops6" />
+		</navTarget>
+		<navTarget id="ncx57" class="noteref" playOrder="8">
+			<navLabel>
+				<text>3</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops7" />
+		</navTarget>
+		<navTarget id="ncx58" class="noteref" playOrder="10">
+			<navLabel>
+				<text>4</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops8" />
+		</navTarget>
+		<navTarget id="ncx59" class="noteref" playOrder="14">
+			<navLabel>
+				<text>5</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops11" />
+		</navTarget>
+		<navTarget id="ncx60" class="noteref" playOrder="15">
+			<navLabel>
+				<text>6</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops12" />
+		</navTarget>
+		<navTarget id="ncx61" class="noteref" playOrder="16">
+			<navLabel>
+				<text>7</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops13" />
+		</navTarget>
+		<navTarget id="ncx62" class="noteref" playOrder="17">
+			<navLabel>
+				<text>8</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops14" />
+		</navTarget>
+		<navTarget id="ncx63" class="noteref" playOrder="18">
+			<navLabel>
+				<text>9</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops15" />
+		</navTarget>
+		<navTarget id="ncx64" class="noteref" playOrder="19">
+			<navLabel>
+				<text>10</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops16" />
+		</navTarget>
+		<navTarget id="ncx65" class="noteref" playOrder="20">
+			<navLabel>
+				<text>11</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops17" />
+		</navTarget>
+		<navTarget id="ncx66" class="noteref" playOrder="21">
+			<navLabel>
+				<text>12</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops18" />
+		</navTarget>
+		<navTarget id="ncx67" class="noteref" playOrder="23">
+			<navLabel>
+				<text>13</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops19" />
+		</navTarget>
+		<navTarget id="ncx68" class="noteref" playOrder="25">
+			<navLabel>
+				<text>14</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops21" />
+		</navTarget>
+		<navTarget id="ncx69" class="noteref" playOrder="26">
+			<navLabel>
+				<text>15</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops22" />
+		</navTarget>
+		<navTarget id="ncx70" class="noteref" playOrder="27">
+			<navLabel>
+				<text>16</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops23" />
+		</navTarget>
+		<navTarget id="ncx71" class="noteref" playOrder="28">
+			<navLabel>
+				<text>17</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops24" />
+		</navTarget>
+		<navTarget id="ncx72" class="noteref" playOrder="30">
+			<navLabel>
+				<text>18</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops26" />
+		</navTarget>
+		<navTarget id="ncx73" class="noteref" playOrder="32">
+			<navLabel>
+				<text>19</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops27" />
+		</navTarget>
+		<navTarget id="ncx74" class="noteref" playOrder="34">
+			<navLabel>
+				<text>20</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops29" />
+		</navTarget>
+		<navTarget id="ncx75" class="noteref" playOrder="35">
+			<navLabel>
+				<text>21</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops30" />
+		</navTarget>
+		<navTarget id="ncx76" class="noteref" playOrder="36">
+			<navLabel>
+				<text>22</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops31" />
+		</navTarget>
+		<navTarget id="ncx77" class="noteref" playOrder="37">
+			<navLabel>
+				<text>23</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops32" />
+		</navTarget>
+		<navTarget id="ncx78" class="noteref" playOrder="38">
+			<navLabel>
+				<text>24</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops33" />
+		</navTarget>
+		<navTarget id="ncx79" class="noteref" playOrder="41">
+			<navLabel>
+				<text>25</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops35" />
+		</navTarget>
+		<navTarget id="ncx80" class="noteref" playOrder="42">
+			<navLabel>
+				<text>26</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops36" />
+		</navTarget>
+		<navTarget id="ncx81" class="noteref" playOrder="43">
+			<navLabel>
+				<text>27</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops37" />
+		</navTarget>
+		<navTarget id="ncx82" class="noteref" playOrder="44">
+			<navLabel>
+				<text>28</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops38" />
+		</navTarget>
+		<navTarget id="ncx83" class="noteref" playOrder="45">
+			<navLabel>
+				<text>29</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops39" />
+		</navTarget>
+		<navTarget id="ncx84" class="noteref" playOrder="46">
+			<navLabel>
+				<text>30</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops40" />
+		</navTarget>
+		<navTarget id="ncx85" class="noteref" playOrder="47">
+			<navLabel>
+				<text>31</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops41" />
+		</navTarget>
+		<navTarget id="ncx86" class="noteref" playOrder="48">
+			<navLabel>
+				<text>32</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops42" />
+		</navTarget>
+		<navTarget id="ncx87" class="noteref" playOrder="49">
+			<navLabel>
+				<text>33</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops43" />
+		</navTarget>
+		<navTarget id="ncx88" class="noteref" playOrder="50">
+			<navLabel>
+				<text>34</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops44" />
+		</navTarget>
+		<navTarget id="ncx89" class="noteref" playOrder="52">
+			<navLabel>
+				<text>35</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops45" />
+		</navTarget>
+		<navTarget id="ncx90" class="noteref" playOrder="55">
+			<navLabel>
+				<text>36</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops47" />
+		</navTarget>
+		<navTarget id="ncx91" class="noteref" playOrder="56">
+			<navLabel>
+				<text>37</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops48" />
+		</navTarget>
+		<navTarget id="ncx92" class="noteref" playOrder="57">
+			<navLabel>
+				<text>38</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops49" />
+		</navTarget>
+		<navTarget id="ncx93" class="noteref" playOrder="58">
+			<navLabel>
+				<text>39</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops50" />
+		</navTarget>
+		<navTarget id="ncx94" class="noteref" playOrder="59">
+			<navLabel>
+				<text>40</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops51" />
+		</navTarget>
+		<navTarget id="ncx95" class="noteref" playOrder="60">
+			<navLabel>
+				<text>41</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops52" />
+		</navTarget>
+		<navTarget id="ncx96" class="noteref" playOrder="62">
+			<navLabel>
+				<text>42</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops53" />
+		</navTarget>
+		<navTarget id="ncx97" class="noteref" playOrder="63">
+			<navLabel>
+				<text>43</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops54" />
+		</navTarget>
+		<navTarget id="ncx98" class="noteref" playOrder="64">
+			<navLabel>
+				<text>44</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops55" />
+		</navTarget>
+		<navTarget id="ncx99" class="noteref" playOrder="65">
+			<navLabel>
+				<text>45</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops56" />
+		</navTarget>
+		<navTarget id="ncx100" class="noteref" playOrder="67">
+			<navLabel>
+				<text>46</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops58" />
+		</navTarget>
+		<navTarget id="ncx101" class="noteref" playOrder="68">
+			<navLabel>
+				<text>47</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops59" />
+		</navTarget>
+		<navTarget id="ncx102" class="noteref" playOrder="69">
+			<navLabel>
+				<text>48</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops60" />
+		</navTarget>
+		<navTarget id="ncx103" class="noteref" playOrder="70">
+			<navLabel>
+				<text>49</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops61" />
+		</navTarget>
+		<navTarget id="ncx104" class="noteref" playOrder="71">
+			<navLabel>
+				<text>50</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops62" />
+		</navTarget>
+		<navTarget id="ncx105" class="noteref" playOrder="72">
+			<navLabel>
+				<text>51</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops63" />
+		</navTarget>
+		<navTarget id="ncx106" class="noteref" playOrder="74">
+			<navLabel>
+				<text>52</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops64" />
+		</navTarget>
+		<navTarget id="ncx107" class="noteref" playOrder="75">
+			<navLabel>
+				<text>53</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops65" />
+		</navTarget>
+		<navTarget id="ncx108" class="noteref" playOrder="76">
+			<navLabel>
+				<text>54</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops66" />
+		</navTarget>
+		<navTarget id="ncx109" class="noteref" playOrder="77">
+			<navLabel>
+				<text>55</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops67" />
+		</navTarget>
+		<navTarget id="ncx110" class="noteref" playOrder="78">
+			<navLabel>
+				<text>56</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops68" />
+		</navTarget>
+		<navTarget id="ncx111" class="noteref" playOrder="80">
+			<navLabel>
+				<text>57</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops70" />
+		</navTarget>
+		<navTarget id="ncx112" class="noteref" playOrder="81">
+			<navLabel>
+				<text>58</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops71" />
+		</navTarget>
+		<navTarget id="ncx113" class="noteref" playOrder="85">
+			<navLabel>
+				<text>59</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops74" />
+		</navTarget>
+		<navTarget id="ncx114" class="noteref" playOrder="86">
+			<navLabel>
+				<text>60</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops75" />
+		</navTarget>
+		<navTarget id="ncx115" class="noteref" playOrder="87">
+			<navLabel>
+				<text>61</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops76" />
+		</navTarget>
+		<navTarget id="ncx116" class="noteref" playOrder="88">
+			<navLabel>
+				<text>62</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops77" />
+		</navTarget>
+		<navTarget id="ncx117" class="noteref" playOrder="91">
+			<navLabel>
+				<text>63</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops79" />
+		</navTarget>
+		<navTarget id="ncx118" class="noteref" playOrder="92">
+			<navLabel>
+				<text>64</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops80" />
+		</navTarget>
+		<navTarget id="ncx119" class="noteref" playOrder="93">
+			<navLabel>
+				<text>65</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops81" />
+		</navTarget>
+		<navTarget id="ncx120" class="noteref" playOrder="94">
+			<navLabel>
+				<text>66</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops82" />
+		</navTarget>
+		<navTarget id="ncx121" class="noteref" playOrder="96">
+			<navLabel>
+				<text>67</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops84" />
+		</navTarget>
+		<navTarget id="ncx122" class="noteref" playOrder="97">
+			<navLabel>
+				<text>68</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops85" />
+		</navTarget>
+		<navTarget id="ncx123" class="noteref" playOrder="99">
+			<navLabel>
+				<text>69</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops86" />
+		</navTarget>
+		<navTarget id="ncx124" class="noteref" playOrder="100">
+			<navLabel>
+				<text>70</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops87" />
+		</navTarget>
+		<navTarget id="ncx125" class="noteref" playOrder="101">
+			<navLabel>
+				<text>71</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops88" />
+		</navTarget>
+		<navTarget id="ncx126" class="noteref" playOrder="104">
+			<navLabel>
+				<text>72</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops89" />
+		</navTarget>
+		<navTarget id="ncx127" class="noteref" playOrder="108">
+			<navLabel>
+				<text>73</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops91" />
+		</navTarget>
+		<navTarget id="ncx128" class="noteref" playOrder="110">
+			<navLabel>
+				<text>74</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops93" />
+		</navTarget>
+		<navTarget id="ncx129" class="noteref" playOrder="112">
+			<navLabel>
+				<text>75</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops94" />
+		</navTarget>
+		<navTarget id="ncx130" class="noteref" playOrder="114">
+			<navLabel>
+				<text>76</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops96" />
+		</navTarget>
+		<navTarget id="ncx131" class="noteref" playOrder="115">
+			<navLabel>
+				<text>77</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops97" />
+		</navTarget>
+		<navTarget id="ncx132" class="noteref" playOrder="116">
+			<navLabel>
+				<text>78</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops98" />
+		</navTarget>
+		<navTarget id="ncx133" class="noteref" playOrder="117">
+			<navLabel>
+				<text>79</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops99" />
+		</navTarget>
+		<navTarget id="ncx134" class="noteref" playOrder="119">
+			<navLabel>
+				<text>80</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops101" />
+		</navTarget>
+		<navTarget id="ncx135" class="noteref" playOrder="120">
+			<navLabel>
+				<text>81</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops102" />
+		</navTarget>
+		<navTarget id="ncx136" class="noteref" playOrder="123">
+			<navLabel>
+				<text>82</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops104" />
+		</navTarget>
+		<navTarget id="ncx137" class="noteref" playOrder="124">
+			<navLabel>
+				<text>83</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops105" />
+		</navTarget>
+		<navTarget id="ncx138" class="noteref" playOrder="125">
+			<navLabel>
+				<text>84</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops106" />
+		</navTarget>
+		<navTarget id="ncx139" class="noteref" playOrder="126">
+			<navLabel>
+				<text>85</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops107" />
+		</navTarget>
+		<navTarget id="ncx140" class="noteref" playOrder="127">
+			<navLabel>
+				<text>86</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops108" />
+		</navTarget>
+		<navTarget id="ncx141" class="noteref" playOrder="128">
+			<navLabel>
+				<text>87</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops109" />
+		</navTarget>
+		<navTarget id="ncx142" class="noteref" playOrder="130">
+			<navLabel>
+				<text>88</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops110" />
+		</navTarget>
+		<navTarget id="ncx143" class="noteref" playOrder="131">
+			<navLabel>
+				<text>89</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops111" />
+		</navTarget>
+		<navTarget id="ncx144" class="noteref" playOrder="132">
+			<navLabel>
+				<text>90</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops112" />
+		</navTarget>
+		<navTarget id="ncx145" class="noteref" playOrder="133">
+			<navLabel>
+				<text>91</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops113" />
+		</navTarget>
+		<navTarget id="ncx146" class="noteref" playOrder="134">
+			<navLabel>
+				<text>92</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops114" />
+		</navTarget>
+		<navTarget id="ncx147" class="noteref" playOrder="135">
+			<navLabel>
+				<text>93</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops115" />
+		</navTarget>
+		<navTarget id="ncx148" class="noteref" playOrder="136">
+			<navLabel>
+				<text>94</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops116" />
+		</navTarget>
+		<navTarget id="ncx149" class="noteref" playOrder="138">
+			<navLabel>
+				<text>95</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops117" />
+		</navTarget>
+		<navTarget id="ncx150" class="noteref" playOrder="139">
+			<navLabel>
+				<text>96</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops118" />
+		</navTarget>
+		<navTarget id="ncx151" class="noteref" playOrder="140">
+			<navLabel>
+				<text>97</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops119" />
+		</navTarget>
+		<navTarget id="ncx152" class="noteref" playOrder="143">
+			<navLabel>
+				<text>98</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops121" />
+		</navTarget>
+		<navTarget id="ncx153" class="noteref" playOrder="144">
+			<navLabel>
+				<text>99</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops122" />
+		</navTarget>
+		<navTarget id="ncx154" class="noteref" playOrder="146">
+			<navLabel>
+				<text>100</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops123" />
+		</navTarget>
+		<navTarget id="ncx155" class="noteref" playOrder="147">
+			<navLabel>
+				<text>101</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops124" />
+		</navTarget>
+		<navTarget id="ncx156" class="noteref" playOrder="148">
+			<navLabel>
+				<text>102</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops125" />
+		</navTarget>
+		<navTarget id="ncx157" class="noteref" playOrder="150">
+			<navLabel>
+				<text>103</text>
+			</navLabel>
+			<content src="hauy-2005-1.xml#ops126" />
+		</navTarget>
+	</navList>
+</ncx>
