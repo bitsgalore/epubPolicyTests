@@ -12,8 +12,7 @@ contentDir="$instDir"/content/
 
 buildDir="$instDir"/build/
 
-# Empty build dir
-
+# Clean up build dir
 rm "$buildDir"/*
 
 # **************

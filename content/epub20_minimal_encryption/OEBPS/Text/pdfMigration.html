@@ -1,47 +1,113 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <title></title>
-</head>
-
-<body>
-  <h1 id="when-not-to-migrate-a-pdf-to-pdfa">When (not) to migrate a PDF to PDF/A</h1>
-
-  <p>It is well-known that PDF documents can contain features that are preservation risks (e.g. see <a href="https://web.archive.org/web/20130515073645/http://libraries.stackexchange.com/questions/964/what-preservation-risks-are-associated-with-the-pdf-file-format">here</a> and <a href="http://wiki.opf-labs.org/display/TR/Portable+Document+Format">here</a>). Migration of existing <em>PDF</em>s to <em>PDF/A</em> is sometimes advocated as a strategy for mitigating these risks. However, the benefits of this approach are often questionable, and the migration process can also be quite risky in itself. As I often get questions on this subject, I thought it might be worthwhile to do a short write-up on this.</p><!--break-->
-
-  <h2 id="pdfa-is-a-profile"><em>PDF/A</em> is a profile</h2>
-
-  <p>First, it's important to stress that each of the <em>PDF/A</em> standards (<em>A-1</em>, <em>A-2</em> and <em>A-3</em>) are really just <em>profiles</em> within the <em>PDF</em> format. More specifically, <em>PDF/A-1</em> offers a subset of <a href="http://acroeng.adobe.com/PDFReference/PDF_1.4/PDF%20Reference%201.4.pdf"><em>PDF 1.4</em></a>, whereas <em>PDF/A-2</em> and <em>PDF/A-3</em> are based on <a href="http://acroeng.adobe.com/PDFReference/ISO32000/PDF32000-Adobe.pdf">the ISO 32000 version of <em>PDF 1.7</em></a>. What these profiles have in common, is that they prohibit some features (e.g. multimedia, encryption, interactive content) that are allowed in 'regular' <em>PDF</em>. Also, they narrow down the way other features are implemented, for example by requiring that all fonts are embedded in the document. This can be illustrated with the following simple Venn diagram below, which shows the feature sets of the aforementioned <em>PDF</em> flavours:</p>
-
-  <div class="figure">
-    <img alt="PDF Venn diagram" src="../Images/pdfVenn.png" />
-
-    <p class="caption">PDF Venn diagram</p>
-  </div>
-
-  <p>Here we see how <em>PDF/A-1</em> is a subset of <em>PDF 1.4</em>, which in turn is a subset of <em>PDF 1.7</em>. <em>PDF A/2</em> and <em>PDF A/3</em> (aggregated here as one entity for the sake of readability) are subsets of <em>PDF 1.7</em>, and include all the features of <em>PDF A/1</em>.</p>
-
-  <p>Keeping this in mind, it's easy to see that migrating an arbitrary <em>PDF</em> to <em>PDF/A</em> can result in problems.</p>
-
-  <h2 id="loss-alteration-during-migration">Loss, alteration during migration</h2>
-
-  <p>Suppose, as an example, that we have a <em>PDF</em> that contains a movie. This is prohibited in <em>PDF/A</em>, so migrating to <em>PDF/A</em> will simply result in the loss of the multimedia content. Another example are fonts: all fonts in a <em>PDF/A</em> document must be embedded. But what happens if the source <em>PDF</em> uses non-embedded fonts that are not available on the machine on which the migration is run? Will the migration tool exit with a warning, or will it silently use some alternative, perhaps similar font? And how do you check for this?</p>
-
-  <h2 id="complexity-and-effect-of-errors">Complexity and effect of errors</h2>
-
-  <p>Also, migrations like these typically involve a complete re-processing of the <em>PDF</em>'s internal structure. The format's complexity implies that there's a lot of potential for things to go wrong in this process. This is particularly true if the source <em>PDF</em> contains subtle errors, in which case the risk of losing information is very real (even though the original document may be perfectly readable in a viewer). Since we don't really have any tools for detecting such errors (i.e. a <a href="http://duff-johnson.com/wp-content/uploads/2014/01/PDFValidationDreamOrYawn.pdf">sufficiently reliable <em>PDF</em> validator</a>), these cases can be difficult to deal with. Some further considerations can be found <a href="http://web.archive.org/web/20130605142355/http://libraries.stackexchange.com/questions/1117/converting-invalid-pdfs-or-not-for-digital-preservation">here</a> (the context there is slightly different, but the risks are similar).</p>
-
-  <h2 id="digitised-vs-born-digital">Digitised vs born-digital</h2>
-
-  <p>The origin of the source <em>PDF</em>s may be another thing to take into account. If <em>PDF</em>s were originally created as part of a digitisation project (e.g. scanned books), the <em>PDF</em> is usually little more than a wrapper around a bunch of images, perhaps augmented by an OCR layer. Migrating such <em>PDF</em>s to <em>PDF/A</em> is pretty straightforward, since the source files are unlikely to contain any features that are not allowed in <em>PDF/A</em>. At the same time, this also means that the benefits of migrating such files to <em>PDF/A</em> are pretty limited, since the source <em>PDF</em>s weren't problematic to begin with!</p>
-
-  <p>The potential benefits <em>PDF/A</em> may be more obvious for a lot of born-digital content; however, for the reasons listed in the previous section, the migration is more complex, and there's just a lot more that can go wrong (see also <a href="http://qanda.digipres.org/19/what-are-the-benefits-and-risks-of-using-the-pdf-a-file-format?show=21#a21">here</a> for some additional considerations).</p>
-
-  <h2 id="conclusions">Conclusions</h2>
-
-  <p>Although migrating <em>PDF</em> documents to <em>PDF/A</em> may look superficially attractive, it is actually quite risky in practice, and it may easily result in unintentional data loss. Moreover, the risks increase with the number of preservation-unfriendly features, meaning that the migration is most likely to be successful for source <em>PDF</em>s that weren't problematic to begin with, which belies the very purpose of migrating to <em>PDF/A</em>. For specific cases, migration to <em>PDF/A</em> may still be a sensible approach, but the expected benefits should be weighed carefully against the risks. In the absence of stable, generally accepted tools for assessing the quality of <em>PDF</em>s (both source <em>and</em> destination!), it would also seem prudent to always keep the originals.</p>
-</body>
-</html>
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjwh
+RE9DVFlQRSBodG1sIFBVQkxJQyAiLS8vVzNDLy9EVEQgWEhUTUwgMS4xLy9FTiIKICAiaHR0cDov
+L3d3dy53My5vcmcvVFIveGh0bWwxMS9EVEQveGh0bWwxMS5kdGQiPgoKPGh0bWwgeG1sbnM9Imh0
+dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiPgo8aGVhZD4KICA8dGl0bGU+PC90aXRsZT4KPC9o
+ZWFkPgoKPGJvZHk+CiAgPGgxIGlkPSJ3aGVuLW5vdC10by1taWdyYXRlLWEtcGRmLXRvLXBkZmEi
+PldoZW4gKG5vdCkgdG8gbWlncmF0ZSBhIFBERiB0byBQREYvQTwvaDE+CgogIDxwPkl0IGlzIHdl
+bGwta25vd24gdGhhdCBQREYgZG9jdW1lbnRzIGNhbiBjb250YWluIGZlYXR1cmVzIHRoYXQgYXJl
+IHByZXNlcnZhdGlvbiByaXNrcyAoZS5nLiBzZWUgPGEgaHJlZj0iaHR0cHM6Ly93ZWIuYXJjaGl2
+ZS5vcmcvd2ViLzIwMTMwNTE1MDczNjQ1L2h0dHA6Ly9saWJyYXJpZXMuc3RhY2tleGNoYW5nZS5j
+b20vcXVlc3Rpb25zLzk2NC93aGF0LXByZXNlcnZhdGlvbi1yaXNrcy1hcmUtYXNzb2NpYXRlZC13
+aXRoLXRoZS1wZGYtZmlsZS1mb3JtYXQiPmhlcmU8L2E+IGFuZCA8YSBocmVmPSJodHRwOi8vd2lr
+aS5vcGYtbGFicy5vcmcvZGlzcGxheS9UUi9Qb3J0YWJsZStEb2N1bWVudCtGb3JtYXQiPmhlcmU8
+L2E+KS4gTWlncmF0aW9uIG9mIGV4aXN0aW5nIDxlbT5QREY8L2VtPnMgdG8gPGVtPlBERi9BPC9l
+bT4gaXMgc29tZXRpbWVzIGFkdm9jYXRlZCBhcyBhIHN0cmF0ZWd5IGZvciBtaXRpZ2F0aW5nIHRo
+ZXNlIHJpc2tzLiBIb3dldmVyLCB0aGUgYmVuZWZpdHMgb2YgdGhpcyBhcHByb2FjaCBhcmUgb2Z0
+ZW4gcXVlc3Rpb25hYmxlLCBhbmQgdGhlIG1pZ3JhdGlvbiBwcm9jZXNzIGNhbiBhbHNvIGJlIHF1
+aXRlIHJpc2t5IGluIGl0c2VsZi4gQXMgSSBvZnRlbiBnZXQgcXVlc3Rpb25zIG9uIHRoaXMgc3Vi
+amVjdCwgSSB0aG91Z2h0IGl0IG1pZ2h0IGJlIHdvcnRod2hpbGUgdG8gZG8gYSBzaG9ydCB3cml0
+ZS11cCBvbiB0aGlzLjwvcD48IS0tYnJlYWstLT4KCiAgPGgyIGlkPSJwZGZhLWlzLWEtcHJvZmls
+ZSI+PGVtPlBERi9BPC9lbT4gaXMgYSBwcm9maWxlPC9oMj4KCiAgPHA+Rmlyc3QsIGl0J3MgaW1w
+b3J0YW50IHRvIHN0cmVzcyB0aGF0IGVhY2ggb2YgdGhlIDxlbT5QREYvQTwvZW0+IHN0YW5kYXJk
+cyAoPGVtPkEtMTwvZW0+LCA8ZW0+QS0yPC9lbT4gYW5kIDxlbT5BLTM8L2VtPikgYXJlIHJlYWxs
+eSBqdXN0IDxlbT5wcm9maWxlczwvZW0+IHdpdGhpbiB0aGUgPGVtPlBERjwvZW0+IGZvcm1hdC4g
+TW9yZSBzcGVjaWZpY2FsbHksIDxlbT5QREYvQS0xPC9lbT4gb2ZmZXJzIGEgc3Vic2V0IG9mIDxh
+IGhyZWY9Imh0dHA6Ly9hY3JvZW5nLmFkb2JlLmNvbS9QREZSZWZlcmVuY2UvUERGXzEuNC9QREYl
+MjBSZWZlcmVuY2UlMjAxLjQucGRmIj48ZW0+UERGIDEuNDwvZW0+PC9hPiwgd2hlcmVhcyA8ZW0+
+UERGL0EtMjwvZW0+IGFuZCA8ZW0+UERGL0EtMzwvZW0+IGFyZSBiYXNlZCBvbiA8YSBocmVmPSJo
+dHRwOi8vYWNyb2VuZy5hZG9iZS5jb20vUERGUmVmZXJlbmNlL0lTTzMyMDAwL1BERjMyMDAwLUFk
+b2JlLnBkZiI+dGhlIElTTyAzMjAwMCB2ZXJzaW9uIG9mIDxlbT5QREYgMS43PC9lbT48L2E+LiBX
+aGF0IHRoZXNlIHByb2ZpbGVzIGhhdmUgaW4gY29tbW9uLCBpcyB0aGF0IHRoZXkgcHJvaGliaXQg
+c29tZSBmZWF0dXJlcyAoZS5nLiBtdWx0aW1lZGlhLCBlbmNyeXB0aW9uLCBpbnRlcmFjdGl2ZSBj
+b250ZW50KSB0aGF0IGFyZSBhbGxvd2VkIGluICdyZWd1bGFyJyA8ZW0+UERGPC9lbT4uIEFsc28s
+IHRoZXkgbmFycm93IGRvd24gdGhlIHdheSBvdGhlciBmZWF0dXJlcyBhcmUgaW1wbGVtZW50ZWQs
+IGZvciBleGFtcGxlIGJ5IHJlcXVpcmluZyB0aGF0IGFsbCBmb250cyBhcmUgZW1iZWRkZWQgaW4g
+dGhlIGRvY3VtZW50LiBUaGlzIGNhbiBiZSBpbGx1c3RyYXRlZCB3aXRoIHRoZSBmb2xsb3dpbmcg
+c2ltcGxlIFZlbm4gZGlhZ3JhbSBiZWxvdywgd2hpY2ggc2hvd3MgdGhlIGZlYXR1cmUgc2V0cyBv
+ZiB0aGUgYWZvcmVtZW50aW9uZWQgPGVtPlBERjwvZW0+IGZsYXZvdXJzOjwvcD4KCiAgPGRpdiBj
+bGFzcz0iZmlndXJlIj4KICAgIDxpbWcgYWx0PSJQREYgVmVubiBkaWFncmFtIiBzcmM9Ii4uL0lt
+YWdlcy9wZGZWZW5uLnBuZyIgLz4KCiAgICA8cCBjbGFzcz0iY2FwdGlvbiI+UERGIFZlbm4gZGlh
+Z3JhbTwvcD4KICA8L2Rpdj4KCiAgPHA+SGVyZSB3ZSBzZWUgaG93IDxlbT5QREYvQS0xPC9lbT4g
+aXMgYSBzdWJzZXQgb2YgPGVtPlBERiAxLjQ8L2VtPiwgd2hpY2ggaW4gdHVybiBpcyBhIHN1YnNl
+dCBvZiA8ZW0+UERGIDEuNzwvZW0+LiA8ZW0+UERGIEEvMjwvZW0+IGFuZCA8ZW0+UERGIEEvMzwv
+ZW0+IChhZ2dyZWdhdGVkIGhlcmUgYXMgb25lIGVudGl0eSBmb3IgdGhlIHNha2Ugb2YgcmVhZGFi
+aWxpdHkpIGFyZSBzdWJzZXRzIG9mIDxlbT5QREYgMS43PC9lbT4sIGFuZCBpbmNsdWRlIGFsbCB0
+aGUgZmVhdHVyZXMgb2YgPGVtPlBERiBBLzE8L2VtPi48L3A+CgogIDxwPktlZXBpbmcgdGhpcyBp
+biBtaW5kLCBpdCdzIGVhc3kgdG8gc2VlIHRoYXQgbWlncmF0aW5nIGFuIGFyYml0cmFyeSA8ZW0+
+UERGPC9lbT4gdG8gPGVtPlBERi9BPC9lbT4gY2FuIHJlc3VsdCBpbiBwcm9ibGVtcy48L3A+Cgog
+IDxoMiBpZD0ibG9zcy1hbHRlcmF0aW9uLWR1cmluZy1taWdyYXRpb24iPkxvc3MsIGFsdGVyYXRp
+b24gZHVyaW5nIG1pZ3JhdGlvbjwvaDI+CgogIDxwPlN1cHBvc2UsIGFzIGFuIGV4YW1wbGUsIHRo
+YXQgd2UgaGF2ZSBhIDxlbT5QREY8L2VtPiB0aGF0IGNvbnRhaW5zIGEgbW92aWUuIFRoaXMgaXMg
+cHJvaGliaXRlZCBpbiA8ZW0+UERGL0E8L2VtPiwgc28gbWlncmF0aW5nIHRvIDxlbT5QREYvQTwv
+ZW0+IHdpbGwgc2ltcGx5IHJlc3VsdCBpbiB0aGUgbG9zcyBvZiB0aGUgbXVsdGltZWRpYSBjb250
+ZW50LiBBbm90aGVyIGV4YW1wbGUgYXJlIGZvbnRzOiBhbGwgZm9udHMgaW4gYSA8ZW0+UERGL0E8
+L2VtPiBkb2N1bWVudCBtdXN0IGJlIGVtYmVkZGVkLiBCdXQgd2hhdCBoYXBwZW5zIGlmIHRoZSBz
+b3VyY2UgPGVtPlBERjwvZW0+IHVzZXMgbm9uLWVtYmVkZGVkIGZvbnRzIHRoYXQgYXJlIG5vdCBh
+dmFpbGFibGUgb24gdGhlIG1hY2hpbmUgb24gd2hpY2ggdGhlIG1pZ3JhdGlvbiBpcyBydW4/IFdp
+bGwgdGhlIG1pZ3JhdGlvbiB0b29sIGV4aXQgd2l0aCBhIHdhcm5pbmcsIG9yIHdpbGwgaXQgc2ls
+ZW50bHkgdXNlIHNvbWUgYWx0ZXJuYXRpdmUsIHBlcmhhcHMgc2ltaWxhciBmb250PyBBbmQgaG93
+IGRvIHlvdSBjaGVjayBmb3IgdGhpcz88L3A+CgogIDxoMiBpZD0iY29tcGxleGl0eS1hbmQtZWZm
+ZWN0LW9mLWVycm9ycyI+Q29tcGxleGl0eSBhbmQgZWZmZWN0IG9mIGVycm9yczwvaDI+CgogIDxw
+PkFsc28sIG1pZ3JhdGlvbnMgbGlrZSB0aGVzZSB0eXBpY2FsbHkgaW52b2x2ZSBhIGNvbXBsZXRl
+IHJlLXByb2Nlc3Npbmcgb2YgdGhlIDxlbT5QREY8L2VtPidzIGludGVybmFsIHN0cnVjdHVyZS4g
+VGhlIGZvcm1hdCdzIGNvbXBsZXhpdHkgaW1wbGllcyB0aGF0IHRoZXJlJ3MgYSBsb3Qgb2YgcG90
+ZW50aWFsIGZvciB0aGluZ3MgdG8gZ28gd3JvbmcgaW4gdGhpcyBwcm9jZXNzLiBUaGlzIGlzIHBh
+cnRpY3VsYXJseSB0cnVlIGlmIHRoZSBzb3VyY2UgPGVtPlBERjwvZW0+IGNvbnRhaW5zIHN1YnRs
+ZSBlcnJvcnMsIGluIHdoaWNoIGNhc2UgdGhlIHJpc2sgb2YgbG9zaW5nIGluZm9ybWF0aW9uIGlz
+IHZlcnkgcmVhbCAoZXZlbiB0aG91Z2ggdGhlIG9yaWdpbmFsIGRvY3VtZW50IG1heSBiZSBwZXJm
+ZWN0bHkgcmVhZGFibGUgaW4gYSB2aWV3ZXIpLiBTaW5jZSB3ZSBkb24ndCByZWFsbHkgaGF2ZSBh
+bnkgdG9vbHMgZm9yIGRldGVjdGluZyBzdWNoIGVycm9ycyAoaS5lLiBhIDxhIGhyZWY9Imh0dHA6
+Ly9kdWZmLWpvaG5zb24uY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE0LzAxL1BERlZhbGlkYXRp
+b25EcmVhbU9yWWF3bi5wZGYiPnN1ZmZpY2llbnRseSByZWxpYWJsZSA8ZW0+UERGPC9lbT4gdmFs
+aWRhdG9yPC9hPiksIHRoZXNlIGNhc2VzIGNhbiBiZSBkaWZmaWN1bHQgdG8gZGVhbCB3aXRoLiBT
+b21lIGZ1cnRoZXIgY29uc2lkZXJhdGlvbnMgY2FuIGJlIGZvdW5kIDxhIGhyZWY9Imh0dHA6Ly93
+ZWIuYXJjaGl2ZS5vcmcvd2ViLzIwMTMwNjA1MTQyMzU1L2h0dHA6Ly9saWJyYXJpZXMuc3RhY2tl
+eGNoYW5nZS5jb20vcXVlc3Rpb25zLzExMTcvY29udmVydGluZy1pbnZhbGlkLXBkZnMtb3Itbm90
+LWZvci1kaWdpdGFsLXByZXNlcnZhdGlvbiI+aGVyZTwvYT4gKHRoZSBjb250ZXh0IHRoZXJlIGlz
+IHNsaWdodGx5IGRpZmZlcmVudCwgYnV0IHRoZSByaXNrcyBhcmUgc2ltaWxhcikuPC9wPgoKICA8
+aDIgaWQ9ImRpZ2l0aXNlZC12cy1ib3JuLWRpZ2l0YWwiPkRpZ2l0aXNlZCB2cyBib3JuLWRpZ2l0
+YWw8L2gyPgoKICA8cD5UaGUgb3JpZ2luIG9mIHRoZSBzb3VyY2UgPGVtPlBERjwvZW0+cyBtYXkg
+YmUgYW5vdGhlciB0aGluZyB0byB0YWtlIGludG8gYWNjb3VudC4gSWYgPGVtPlBERjwvZW0+cyB3
+ZXJlIG9yaWdpbmFsbHkgY3JlYXRlZCBhcyBwYXJ0IG9mIGEgZGlnaXRpc2F0aW9uIHByb2plY3Qg
+KGUuZy4gc2Nhbm5lZCBib29rcyksIHRoZSA8ZW0+UERGPC9lbT4gaXMgdXN1YWxseSBsaXR0bGUg
+bW9yZSB0aGFuIGEgd3JhcHBlciBhcm91bmQgYSBidW5jaCBvZiBpbWFnZXMsIHBlcmhhcHMgYXVn
+bWVudGVkIGJ5IGFuIE9DUiBsYXllci4gTWlncmF0aW5nIHN1Y2ggPGVtPlBERjwvZW0+cyB0byA8
+ZW0+UERGL0E8L2VtPiBpcyBwcmV0dHkgc3RyYWlnaHRmb3J3YXJkLCBzaW5jZSB0aGUgc291cmNl
+IGZpbGVzIGFyZSB1bmxpa2VseSB0byBjb250YWluIGFueSBmZWF0dXJlcyB0aGF0IGFyZSBub3Qg
+YWxsb3dlZCBpbiA8ZW0+UERGL0E8L2VtPi4gQXQgdGhlIHNhbWUgdGltZSwgdGhpcyBhbHNvIG1l
+YW5zIHRoYXQgdGhlIGJlbmVmaXRzIG9mIG1pZ3JhdGluZyBzdWNoIGZpbGVzIHRvIDxlbT5QREYv
+QTwvZW0+IGFyZSBwcmV0dHkgbGltaXRlZCwgc2luY2UgdGhlIHNvdXJjZSA8ZW0+UERGPC9lbT5z
+IHdlcmVuJ3QgcHJvYmxlbWF0aWMgdG8gYmVnaW4gd2l0aCE8L3A+CgogIDxwPlRoZSBwb3RlbnRp
+YWwgYmVuZWZpdHMgPGVtPlBERi9BPC9lbT4gbWF5IGJlIG1vcmUgb2J2aW91cyBmb3IgYSBsb3Qg
+b2YgYm9ybi1kaWdpdGFsIGNvbnRlbnQ7IGhvd2V2ZXIsIGZvciB0aGUgcmVhc29ucyBsaXN0ZWQg
+aW4gdGhlIHByZXZpb3VzIHNlY3Rpb24sIHRoZSBtaWdyYXRpb24gaXMgbW9yZSBjb21wbGV4LCBh
+bmQgdGhlcmUncyBqdXN0IGEgbG90IG1vcmUgdGhhdCBjYW4gZ28gd3JvbmcgKHNlZSBhbHNvIDxh
+IGhyZWY9Imh0dHA6Ly9xYW5kYS5kaWdpcHJlcy5vcmcvMTkvd2hhdC1hcmUtdGhlLWJlbmVmaXRz
+LWFuZC1yaXNrcy1vZi11c2luZy10aGUtcGRmLWEtZmlsZS1mb3JtYXQ/c2hvdz0yMSNhMjEiPmhl
+cmU8L2E+IGZvciBzb21lIGFkZGl0aW9uYWwgY29uc2lkZXJhdGlvbnMpLjwvcD4KCiAgPGgyIGlk
+PSJjb25jbHVzaW9ucyI+Q29uY2x1c2lvbnM8L2gyPgoKICA8cD5BbHRob3VnaCBtaWdyYXRpbmcg
+PGVtPlBERjwvZW0+IGRvY3VtZW50cyB0byA8ZW0+UERGL0E8L2VtPiBtYXkgbG9vayBzdXBlcmZp
+Y2lhbGx5IGF0dHJhY3RpdmUsIGl0IGlzIGFjdHVhbGx5IHF1aXRlIHJpc2t5IGluIHByYWN0aWNl
+LCBhbmQgaXQgbWF5IGVhc2lseSByZXN1bHQgaW4gdW5pbnRlbnRpb25hbCBkYXRhIGxvc3MuIE1v
+cmVvdmVyLCB0aGUgcmlza3MgaW5jcmVhc2Ugd2l0aCB0aGUgbnVtYmVyIG9mIHByZXNlcnZhdGlv
+bi11bmZyaWVuZGx5IGZlYXR1cmVzLCBtZWFuaW5nIHRoYXQgdGhlIG1pZ3JhdGlvbiBpcyBtb3N0
+IGxpa2VseSB0byBiZSBzdWNjZXNzZnVsIGZvciBzb3VyY2UgPGVtPlBERjwvZW0+cyB0aGF0IHdl
+cmVuJ3QgcHJvYmxlbWF0aWMgdG8gYmVnaW4gd2l0aCwgd2hpY2ggYmVsaWVzIHRoZSB2ZXJ5IHB1
+cnBvc2Ugb2YgbWlncmF0aW5nIHRvIDxlbT5QREYvQTwvZW0+LiBGb3Igc3BlY2lmaWMgY2FzZXMs
+IG1pZ3JhdGlvbiB0byA8ZW0+UERGL0E8L2VtPiBtYXkgc3RpbGwgYmUgYSBzZW5zaWJsZSBhcHBy
+b2FjaCwgYnV0IHRoZSBleHBlY3RlZCBiZW5lZml0cyBzaG91bGQgYmUgd2VpZ2hlZCBjYXJlZnVs
+bHkgYWdhaW5zdCB0aGUgcmlza3MuIEluIHRoZSBhYnNlbmNlIG9mIHN0YWJsZSwgZ2VuZXJhbGx5
+IGFjY2VwdGVkIHRvb2xzIGZvciBhc3Nlc3NpbmcgdGhlIHF1YWxpdHkgb2YgPGVtPlBERjwvZW0+
+cyAoYm90aCBzb3VyY2UgPGVtPmFuZDwvZW0+IGRlc3RpbmF0aW9uISksIGl0IHdvdWxkIGFsc28g
+c2VlbSBwcnVkZW50IHRvIGFsd2F5cyBrZWVwIHRoZSBvcmlnaW5hbHMuPC9wPgo8L2JvZHk+Cjwv
+aHRtbD4K
