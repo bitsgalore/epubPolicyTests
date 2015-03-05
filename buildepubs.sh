@@ -2,15 +2,15 @@
 
 # Build Epubs from directory structure
 
-# Working dir - directory from which script is executed
-workDir="$(pwd)"
+# Installation directory
+instDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Content directory - every subdir here represents one epub
-contentDir="./content/"
+contentDir="$instDir"/content/
 
 # Build directory - where newly created epubs are stored
 
-buildDir="./build/"
+buildDir="$instDir"/build/
 
 # Empty build dir
 
@@ -43,7 +43,7 @@ while IFS= read -d $'\0' directory ; do
     zip -rDX9 "$epubNameAbs" * -x mimetype
 
     # Back to working dir
-    cd "$workDir"
+    cd "$instDir"
       
 done < <(find "$contentDir" -maxdepth 1 -mindepth 1 -print0 -type d)
 
