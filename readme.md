@@ -17,13 +17,18 @@ Some of the files were newly created (with a little help from [Sigil](http://sig
 
 * **content** - uncompressed contents of each test file (each subdirectory represents one epub)
 * **build** - actual epub builds
+* **epubcheckout** - epubcheck output
 * **pubresources** - various resources (files) that were used for creating the epubs.
 
-## Main script
+## Build script
 
-The script *buildepubs.sh* iterates over all subdirectories in the *content* folder and compresses the contents of each to a functional *epub* file in the *build* directory.
+The script *build.sh* iterates over all subdirectories in the *content* folder and compresses the contents of each to a functional *epub* file in the *build* directory.
 
 For an explanation of how the build process works, see [here](https://gist.github.com/bitsgalore/da04413787931d20a8bf).
+
+## Analyse script
+
+The script *analyse.sh* validates all epubs in the *build* directory with [Epubcheck](https://github.com/idpf/epubcheck) (it uses both the stable 3.0 version and the alpha 4.0.0 one). You have to install these yourself on your system. Then update the file paths to *epubcheck3Jar* and *epubcheck4Jar* at the top of the script.
 
 ## Description of test files
 
@@ -33,7 +38,14 @@ For an explanation of how the build process works, see [here](https://gist.githu
 |[epub20_minimal_encryption.epub](build/epub20_minimal_encryption.epub?raw=true)|2|Includes encryption.xml resource in `META-INF`, indicating that main text resource is encrypted (text resource is not *actually* encrypted, BTW)|
 |[epub30_font_obfuscation.epub](build/epub30_font_obfuscation.epub?raw=true)|3|Includes fonts that are obfuscated (which results in *hasEncryption* in epubcheck). Taken from [EPUB 3 Sample Documents](https://code.google.com/p/epub-samples/) ([*wasteland with OTF fonts, obfuscated*](https://code.google.com/p/epub-samples/downloads/detail?name=wasteland-otf-obf-20120118.epub&can=2&q=)).|
 |[epub20_not_core_media_type.epub](build/epub20_not_core_media_type.epub?raw=true)|2|Includes JP2 image, which is a format that is not on the list of Core Media Types|
-|[epub20_dtbook.epub](build/epub20_dtbook.epub?raw=true)|2|Includes Digital Talking Book content. Taken from [threepress](https://code.google.com/p/threepress/source/browse/branches/bookworm-caching/library/test-data/data/hauy.epub?r=583), published under [BSD 3](http://opensource.org/licenses/BSD-3-Clause) license. |
+|[epub20_dtbook.epub](build/epub20_dtbook.epub?raw=true)|2|Includes Digital Talking Book content. Taken from [threepress](https://code.google.com/p/threepress/source/browse/branches/bookworm-caching/library/test-data/data/hauy.epub?r=583), published under [BSD 3](http://opensource.org/licenses/BSD-3-Clause) license.|
+
+
+## How to add a new test file
+
+1. Add uncompressed directory structure to *content* folder
+2. Run script to update the builds
+3. Add descriptive entry to table above
 
 <!--
 

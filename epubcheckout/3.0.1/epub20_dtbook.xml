@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="3.0.1" date="2013-05-10">
+ <date>2015-03-09T14:00:21+01:00</date>
+ <repInfo uri="epub20_dtbook.epub">
+  <created>2007-08-09T17:30:44Z</created>
+  <format>application/epub+zip</format>
+  <version>2.0</version>
+  <status>Not well-formed</status>
+  <messages>
+   <message>WARN: /OEBPS/navigation.ncx: meta@dtb:uid content 'null' should conform to unique-identifier in content.opf: 'C00000'</message>
+   <message>ERROR: : I/O error reading OEBPS/hauy-2005-1.xml: Stream closed</message>
+   <message>ERROR: /OEBPS/navigation.ncx(18): 'ops1': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(23): 'ops2': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(30): 'ops3': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(36): 'ops4': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(42): 'ops9': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(47): 'ops10': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(53): 'ops20': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(59): 'ops25': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(65): 'ops28': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(71): 'ops34': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(77): 'ops46': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(83): 'ops57': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(89): 'ops69': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(95): 'ops72': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(100): 'ops73': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(106): 'ops78': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(112): 'ops83': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(118): 'ops90': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(124): 'ops92': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(131): 'ops95': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(137): 'ops100': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(144): 'ops103': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(150): 'ops120': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(156): 'ops127': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(161): 'fn': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(167): 'ops128': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(173): 'ops129': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(179): 'ops130': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(191): 'page_5': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(197): 'page_6': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(203): 'page_7': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(209): 'page_8': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(215): 'page_9': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(221): 'page_10': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(227): 'page_11': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(233): 'page_12': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(239): 'page_13': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(245): 'page_14': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(251): 'page_15': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(257): 'page_16': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(263): 'page_17': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(269): 'page_18': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(275): 'page_19': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(281): 'page_20': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(287): 'page_21': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(293): 'page_22': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(299): 'page_23': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(305): 'page_24': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(311): 'page_25': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(317): 'page_26': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(323): 'page_27': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(329): 'page_28': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(335): 'page_29': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(341): 'page_30': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(352): 'ops5': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(358): 'ops6': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(364): 'ops7': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(370): 'ops8': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(376): 'ops11': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(382): 'ops12': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(388): 'ops13': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(394): 'ops14': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(400): 'ops15': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(406): 'ops16': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(412): 'ops17': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(418): 'ops18': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(424): 'ops19': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(430): 'ops21': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(436): 'ops22': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(442): 'ops23': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(448): 'ops24': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(454): 'ops26': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(460): 'ops27': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(466): 'ops29': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(472): 'ops30': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(478): 'ops31': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(484): 'ops32': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(490): 'ops33': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(496): 'ops35': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(502): 'ops36': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(508): 'ops37': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(514): 'ops38': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(520): 'ops39': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(526): 'ops40': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(532): 'ops41': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(538): 'ops42': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(544): 'ops43': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(550): 'ops44': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(556): 'ops45': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(562): 'ops47': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(568): 'ops48': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(574): 'ops49': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(580): 'ops50': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(586): 'ops51': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(592): 'ops52': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(598): 'ops53': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(604): 'ops54': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(610): 'ops55': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(616): 'ops56': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(622): 'ops58': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(628): 'ops59': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(634): 'ops60': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(640): 'ops61': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(646): 'ops62': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(652): 'ops63': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(658): 'ops64': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(664): 'ops65': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(670): 'ops66': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(676): 'ops67': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(682): 'ops68': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(688): 'ops70': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(694): 'ops71': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(700): 'ops74': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(706): 'ops75': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(712): 'ops76': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(718): 'ops77': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(724): 'ops79': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(730): 'ops80': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(736): 'ops81': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(742): 'ops82': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(748): 'ops84': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(754): 'ops85': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(760): 'ops86': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(766): 'ops87': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(772): 'ops88': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(778): 'ops89': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(784): 'ops91': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(790): 'ops93': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(796): 'ops94': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(802): 'ops96': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(808): 'ops97': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(814): 'ops98': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(820): 'ops99': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(826): 'ops101': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(832): 'ops102': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(838): 'ops104': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(844): 'ops105': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(850): 'ops106': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(856): 'ops107': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(862): 'ops108': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(868): 'ops109': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(874): 'ops110': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(880): 'ops111': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(886): 'ops112': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(892): 'ops113': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(898): 'ops114': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(904): 'ops115': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(910): 'ops116': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(916): 'ops117': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(922): 'ops118': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(928): 'ops119': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(934): 'ops121': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(940): 'ops122': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(946): 'ops123': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(952): 'ops124': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(958): 'ops125': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+   <message>ERROR: /OEBPS/navigation.ncx(964): 'ops126': fragment identifier is not defined in 'OEBPS/hauy-2005-1.xml'</message>
+  </messages>
+  <mimeType>application/epub+zip</mimeType>
+  <properties>
+   <property><name>Language</name><values arity="Scalar" type="String"><value>en</value></values></property>
+   <property><name>Info</name><values arity="List" type="Property">
+    <property><name>Identifier</name><values arity="Scalar" type="String"><value>C00000</value></values></property>
+    <property><name>CreationDate</name><values arity="Scalar" type="Date"><value>2007-08-09T17:30:44Z</value></values></property>
+    <property><name>Title</name><values arity="Scalar" type="String"><value>Valentin Haüy - the father of the education for the blind</value></values></property>
+    <property><name>Creator</name><values arity="Scalar" type="String"><value>Beatrice Christensen Sköld</value></values></property>
+    <property><name>Date</name><values arity="Scalar" type="String"><value>2007-08-09</value></values></property>
+    <property><name>Publisher</name><values arity="Scalar" type="String"><value>TPB</value></values></property>
+   </values></property>
+  </properties>
+ </repInfo>
+</jhove>
