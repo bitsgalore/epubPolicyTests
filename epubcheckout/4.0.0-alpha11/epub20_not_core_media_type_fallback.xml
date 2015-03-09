@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="4.0.0-alpha11" date="2014-09-12">
- <date>2015-03-09T17:34:52+01:00</date>
- <repInfo uri="epub20_minimal.epub">
+ <date>2015-03-09T17:31:30+01:00</date>
+ <repInfo uri="epub20_not_core_media_type_fallback.epub">
   <created>2015-03-03T17:12:58Z</created>
   <format>application/epub+zip</format>
   <version>2.0</version>
@@ -11,7 +11,7 @@
    <property>
     <name>CharacterCount</name>
     <values arity="Scalar" type="Long">
-     <value>4520</value>
+     <value>4521</value>
     </values>
    </property>
    <property>
