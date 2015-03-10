@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="4.0.0-alpha11" date="2014-09-12">
- <date>2015-03-10T12:17:48+01:00</date>
- <repInfo uri="epub20_foreign_resource_no_fallback.epub">
+ <date>2015-03-10T12:17:17+01:00</date>
+ <repInfo uri="epub20_foreign_resource_with_fallback_noID.epub">
   <created>2015-03-03T17:12:58Z</created>
   <format>application/epub+zip</format>
   <version>2.0</version>
-  <status>Not well-formed</status>
-  <messages>
-   <message>MED-003, ERROR, [Non-standard image resource of type image/jp2 found.], OEBPS/Text/pdfMigration.html (20-63)</message>
-  </messages>
+  <status>Well-formed</status>
   <mimeType>application/epub+zip</mimeType>
   <properties>
    <property>
     <name>CharacterCount</name>
     <values arity="Scalar" type="Long">
-     <value>4520</value>
+     <value>4521</value>
     </values>
    </property>
    <property>
